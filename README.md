@@ -1,5 +1,7 @@
 # The Help Desk Project
 
+💬 [Join the community in Discussions](https://github.com/ryan-sharpnack/the-help-desk-project/discussions)
+
 ### Don't just learn IT. Practice IT. Prove it.
 
 **An open-source, community-driven initiative bridging the gap between learning IT and doing IT.**
@@ -157,6 +159,23 @@ Technical knowledge becomes even more valuable when shared.
 Help contributors improve their troubleshooting processes, technical documentation, and understanding of professional IT practices.
 
 Constructive feedback is always welcome.
+
+---
+
+## Community Discussions
+
+Have a question, an idea, or something you want to share? Join the conversation in [GitHub Discussions](https://github.com/ryan-sharpnack/the-help-desk-project/discussions).
+
+| Category | What it's for |
+|---|---|
+| 👋 **Introductions** | Say hello and tell us what you're working on |
+| 🧰 **Technical Questions** | Troubleshooting and technical help |
+| 💼 **IT Career Questions** | Career advice and guidance |
+| 🖥️ **Homelab Showcase** | Share your homelab builds and setups |
+| 🤝 **Mentorship** | Connect experienced professionals with learners |
+| 📈 **Industry Insights** | Hiring managers share workplace expectations |
+
+**Discussions vs. Issues:** use Discussions for questions and conversation, and use [Issues](https://github.com/ryan-sharpnack/the-help-desk-project/issues) for specific, actionable contributions like bugs or content fixes.
 
 ---
 
