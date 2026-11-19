@@ -224,3 +224,12 @@ Whether you're building your first homelab, resolving your hundredth support tic
 **Don't just learn IT. Practice IT. Prove it.**
 
 Together, let's build a more capable, experienced, and job-ready IT workforce.
+
+---
+
+## License
+
+- **Code** (scripts, configuration files, and automation): [MIT License](LICENSE)
+- **Documentation and written content** (tickets, homelab write-ups, scenarios, and guides): [CC BY 4.0](LICENSE-DOCUMENTATION.md)
+
+Contributors retain copyright in their own work and license it to the community under the terms above.
