@@ -70,6 +70,8 @@ Experienced professionals are encouraged to participate in discussions, review c
 
 Your experience can make a meaningful difference in someone's professional development.
 
+Visit the **Mentorship** and **Industry Insights** categories in [Discussions](https://github.com/ryan-sharpnack/the-help-desk-project/discussions) to get started.
+
 ## How to Submit a Contribution
 
 1. Fork this repository.
@@ -81,7 +83,7 @@ Your experience can make a meaningful difference in someone's professional devel
 7. Open a Pull Request against the main repository.
 8. Respond to feedback and make any requested improvements.
 
-You may also use GitHub Issues and Discussions where appropriate.
+Have a question or not ready to submit yet? Join the conversation in [GitHub Discussions](https://github.com/ryan-sharpnack/the-help-desk-project/discussions). Use [Issues](https://github.com/ryan-sharpnack/the-help-desk-project/issues) for specific corrections or content fixes.
 
 ## Contribution Guidelines
 
@@ -124,9 +126,17 @@ Before submitting a Pull Request:
 
 Maintainers may request clarification, corrections, or additional documentation before accepting a contribution.
 
+## Licensing
+
+By submitting a contribution, you confirm that:
+
+* You wrote it, or you have the right to submit it.
+* It contains no confidential, proprietary, or employer-owned material.
+* You agree to license it under this project's terms: [MIT](LICENSE) for code and [CC BY 4.0](LICENSE-DOCUMENTATION.md) for documentation and written content.
+
 ## Community Participation
 
-All contributors are expected to follow our Code of Conduct.
+All contributors are expected to follow our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 We welcome people of all experience levels. Beginners should feel comfortable asking questions, and experienced professionals should feel encouraged to share their knowledge.
 
