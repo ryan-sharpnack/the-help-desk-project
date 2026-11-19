@@ -58,9 +58,13 @@ Maintainers reserve the right to take reasonable action to protect the community
 
 ## Reporting Violations
 
-If you experience or witness behavior that violates this Code of Conduct, please contact the project maintainers through the reporting method designated in this repository.
+The Help Desk Project is currently establishing a private reporting channel for Code of Conduct concerns.
 
-Reports will be handled as confidentially as reasonably possible.
+Until a private reporting method is available, please do not post sensitive personal information, private communications, or detailed allegations in public GitHub Issues or Discussions.
+
+If you encounter behavior that violates this Code of Conduct, please avoid engaging in hostile exchanges. The project will update this section once a private reporting channel has been established.
+
+For security vulnerabilities, please refer to GitHub's Private Vulnerability Reporting feature. Security vulnerabilities should not be reported publicly.
 
 ## Scope
 
