@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question or start a conversation
+    url: https://github.com/ryan-sharpnack/the-help-desk-project/discussions
+    about: Questions, ideas, homelab help, career advice, and mentorship belong in Discussions.
