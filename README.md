@@ -101,11 +101,11 @@ Every contribution makes this community more valuable.
 
 ## Contributing to the Project
 
-There are several ways to get involved.
+There are several ways to get involved. For the full workflow, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### Submit a Resolved Ticket
 
-Document an IT support issue you have encountered and resolved in your homelab.
+Document an IT support issue you have encountered and resolved in your homelab. Tickets live in the [`tickets/`](tickets/) folder, and you can start from the [ticket template](tickets/TEMPLATE.md).
 
 We encourage contributors to follow a consistent documentation format so that others can understand the problem, reproduce the scenario, and learn from the resolution.
 
@@ -129,7 +129,7 @@ Include relevant commands, configuration examples, screenshots, and supporting d
 
 ### Showcase Your Homelab
 
-Your homelab is your personal IT training environment.
+Your homelab is your personal IT training environment. Showcases live in the [`homelabs/`](homelabs/) folder.
 
 We encourage contributors to document and share:
 
@@ -146,7 +146,7 @@ Explain what you built, why you built it, what technologies you used, and what y
 
 ### Share Real-World IT Scenarios
 
-Industry professionals and hiring managers are encouraged to contribute common IT support scenarios.
+Industry professionals and hiring managers are encouraged to contribute common IT support scenarios. Scenarios live in the [`scenarios/`](scenarios/) folder.
 
 These scenarios can become practical exercises for aspiring professionals to reproduce and resolve in their own environments.
 
@@ -158,7 +158,7 @@ Technical knowledge becomes even more valuable when shared.
 
 Help contributors improve their troubleshooting processes, technical documentation, and understanding of professional IT practices.
 
-Constructive feedback is always welcome.
+Constructive feedback is always welcome, in pull request reviews and in the **Mentorship** category of [Discussions](https://github.com/ryan-sharpnack/the-help-desk-project/discussions).
 
 ---
 
@@ -175,7 +175,7 @@ Have a question, an idea, or something you want to share? Join the conversation 
 | 🤝 **Mentorship** | Connect experienced professionals with learners |
 | 📈 **Industry Insights** | Hiring managers share workplace expectations |
 
-**Discussions vs. Issues:** use Discussions for questions and conversation, and use [Issues](https://github.com/ryan-sharpnack/the-help-desk-project/issues) for specific, actionable contributions like bugs or content fixes.
+**Discussions vs. Issues:** use Discussions for questions and conversation, and use [Issues](https://github.com/ryan-sharpnack/the-help-desk-project/issues/new/choose) for specific content corrections to existing contributions.
 
 ---
 
@@ -219,6 +219,7 @@ Whether you're building your first homelab, resolving your hundredth support tic
 - Share your homelab and resolved tickets.
 - Submit real-world IT support scenarios.
 - Offer technical feedback and mentorship.
+- Join the conversation in [GitHub Discussions](https://github.com/ryan-sharpnack/the-help-desk-project/discussions).
 - Share this project with others in the IT community.
 
 **Don't just learn IT. Practice IT. Prove it.**
@@ -229,7 +230,11 @@ Together, let's build a more capable, experienced, and job-ready IT workforce.
 
 ## License
 
-- **Code** (scripts, configuration files, and automation): [MIT License](LICENSE)
-- **Documentation and written content** (tickets, homelab write-ups, scenarios, and guides): [CC BY 4.0](LICENSE-DOCUMENTATION.md)
+This repository uses two licenses:
 
-Contributors retain copyright in their own work and license it to the community under the terms above.
+| Content | License |
+|---|---|
+| Code, scripts, and configuration files | [MIT](LICENSE) |
+| Tickets, homelab write-ups, scenarios, guides, and other written content | [CC BY 4.0](LICENSE-DOCUMENTATION.md) |
+
+Contributors keep copyright in their own work and license it to the community under these terms. Third-party material stays under its original license. If a file states a different license, that file's license applies.
