@@ -12,9 +12,7 @@ Our goal is to create a community where people can learn from one another, share
 
 Have a question about an IT concept, technology, configuration, or troubleshooting methodology?
 
-Use GitHub Discussions to ask the community.
-
-https://github.com/ryan-sharpnack/the-help-desk-project/discussions
+Ask in the **Technical Questions** category in [GitHub Discussions](https://github.com/ryan-sharpnack/the-help-desk-project/discussions).
 
 ### 2. Homelab Assistance
 
@@ -24,23 +22,29 @@ Share relevant details about your environment, the problem you're experiencing, 
 
 The more information you provide, the easier it will be for others to help.
 
+Post in **Technical Questions** for troubleshooting help, or share your setup in **Homelab Showcase**.
+
 ### 3. Career and Professional Development
 
 Looking for advice about entering the IT industry, developing technical skills, or preparing for your first IT position?
 
-Use GitHub Discussions to connect with other aspiring professionals and experienced industry members.
+Ask in the **IT Career Questions** category in [GitHub Discussions](https://github.com/ryan-sharpnack/the-help-desk-project/discussions) to connect with aspiring professionals and experienced industry members.
 
 ### 4. Repository Issues
 
-Found an error in documentation, identified an issue with a contribution, or have an idea for improving the project?
+Found an error in documentation or a problem with a contribution?
 
-Open a GitHub Issue.
+Open a [GitHub Issue](https://github.com/ryan-sharpnack/the-help-desk-project/issues/new/choose) using the **Content correction** template.
 
-Please use the appropriate issue template when one is available.
+Have an idea for improving the project? Start a conversation in [Discussions](https://github.com/ryan-sharpnack/the-help-desk-project/discussions) instead.
 
-### 5. Mentorship
+### 5. Security Concerns
 
-Experienced IT professionals interested in mentoring aspiring contributors are encouraged to participate in discussions, provide technical feedback, and share industry knowledge.
+If you find exposed secrets, private information, or a security vulnerability, **do not post it publicly**. Follow the instructions in [SECURITY.md](SECURITY.md).
+
+### 6. Mentorship
+
+Experienced IT professionals interested in mentoring aspiring contributors are encouraged to participate in the **Mentorship** and **Industry Insights** categories in [Discussions](https://github.com/ryan-sharpnack/the-help-desk-project/discussions), provide technical feedback, and share industry knowledge.
 
 ## Before Asking a Question
 
