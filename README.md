@@ -20,6 +20,57 @@ Our objective is simple: help people develop the technical competencies, trouble
 
 ---
 
+## Start Here — Choose Your Contribution Path
+
+You don't need to be an experienced IT professional or know how to use Git to participate. Whether you're learning IT, working in the industry, or hiring technical talent, there's a way to contribute.
+
+### I'm an Aspiring IT Professional
+
+Start building practical experience.
+
+- [Explore available IT Support tickets](tickets/).
+- [Use the ticket template](tickets/TEMPLATE.md) to document your troubleshooting.
+- [Showcase your homelab](homelabs/).
+- [Introduce yourself and share your goals](https://github.com/ryan-sharpnack/the-help-desk-project/discussions).
+- Ask questions, get feedback, and learn from experienced professionals.
+
+**Your first step:** Introduce yourself in GitHub Discussions and tell the community what you're learning.
+
+### I'm an IT Professional
+
+Help others understand what working in IT actually involves.
+
+- Share common workplace support scenarios.
+- Recommend technical skills and tools worth learning.
+- Review troubleshooting documentation.
+- Provide technical guidance and mentorship.
+- Help contributors improve their technical methodology.
+
+**Your first step:** Share a sanitized workplace scenario or offer feedback in [GitHub Discussions](https://github.com/ryan-sharpnack/the-help-desk-project/discussions).
+
+### I'm a Hiring Manager or IT Leader
+
+Help shape practical workforce development.
+
+- Share the competencies you expect from entry-level IT candidates.
+- Identify recurring technical problems within your organization.
+- Recommend realistic troubleshooting exercises.
+- Provide feedback on candidate readiness.
+- Help identify gaps between technical education and workplace expectations.
+
+**Your first step:** Share your hiring insights and technical expectations in [GitHub Discussions](https://github.com/ryan-sharpnack/the-help-desk-project/discussions).
+
+### Not Sure Where to Begin?
+
+Start a conversation in [GitHub Discussions](https://github.com/ryan-sharpnack/the-help-desk-project/discussions).
+
+You do not need to fork the repository, use Git from the command line, or submit a Pull Request to participate in community discussions.
+
+When you're ready to contribute directly to the project files, follow our [Contributing Guide](CONTRIBUTING.md).
+
+**Build. Troubleshoot. Document. Improve.**
+
+
 ## Our Mission
 
 To make practical IT experience more accessible by building an open-source community where people can learn by doing, demonstrate their technical abilities, and connect with professionals who can help guide their development.
