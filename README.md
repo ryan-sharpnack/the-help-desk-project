@@ -70,6 +70,7 @@ When you're ready to contribute directly to the project files, follow our [Contr
 
 **Build. Troubleshoot. Document. Improve.**
 
+---
 
 ## Our Mission
 
