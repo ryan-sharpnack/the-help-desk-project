@@ -72,6 +72,30 @@ Your experience can make a meaningful difference in someone's professional devel
 
 Visit the **Mentorship** and **Industry Insights** categories in [Discussions](https://github.com/ryan-sharpnack/the-help-desk-project/discussions) to get started.
 
+
+## Participate Without Submitting a Pull Request
+
+Not every contribution requires Git knowledge or direct repository changes.
+
+You can participate in The Help Desk Project through GitHub Discussions without forking the repository or submitting a Pull Request.
+
+Examples include:
+
+- Asking technical questions and sharing troubleshooting experiences.
+- Posting homelab projects and requesting feedback.
+- Sharing sanitized real-world IT support scenarios.
+- Recommending technical skills, tools, and learning resources.
+- Providing hiring insights and entry-level competency recommendations.
+- Offering mentorship and reviewing other members' technical approaches.
+
+Choose the appropriate Discussion category and start a conversation.
+
+Community members and project maintainers can help turn valuable discussions into formal project documentation when appropriate.
+
+## Ready to Contribute Directly?
+
+If you want to submit a ticket, homelab write-up, scenario, or documentation improvement directly to the repository, follow the contribution workflow below.
+
 ## How to Submit a Contribution
 
 1. Fork this repository.
