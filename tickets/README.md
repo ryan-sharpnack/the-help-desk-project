@@ -1,37 +1,97 @@
-# Resolved Tickets
+# IT Support Ticket Library
 
-This folder contains IT support tickets that contributors have encountered, troubleshot, and resolved, usually in a homelab or personal environment.
+This directory contains practical IT Support ticket writeups developed through hands-on troubleshooting, homelab exercises, researched scenarios, and community contributions.
 
-Each ticket shows the full process: what was reported, how it was investigated, what caused it, how it was fixed, and how the fix was verified.
+Each ticket documents the investigation and resolution process, including the reported problem, business impact, diagnostic methodology, root cause, corrective actions, and verification.
 
-## What belongs here
+The objective is to develop practical troubleshooting capabilities while creating a resource that aspiring IT professionals, experienced practitioners, and hiring managers can learn from.
 
-- Problems you personally troubleshot and resolved
-- Issues across any category: networking, Windows, Linux, hardware, identity and access, and more
-- Write-ups that explain *why* each step was taken, not just what worked
+## Ticket Library Structure
 
-If you haven't resolved the problem yet, or you want others to try to solve it, see [scenarios](../scenarios/) instead.
+Tickets are organized into three competency levels:
 
-## How to submit a ticket
+| Level | Tickets | Focus |
+|---|---:|---|
+| [L1 — Foundational IT Support](L1/) | 12 | Common end-user computing and entry-level troubleshooting |
+| [L2 — Intermediate IT Support](L2/) | 12 | Enterprise systems, identity, infrastructure services, and networking |
+| [L3 — Advanced IT Support](L3/) | 6 | Complex infrastructure incidents, root cause analysis, and service restoration |
 
-1. Copy [TEMPLATE.md](TEMPLATE.md).
-2. Name your file using the format `YYYY-MM-DD-short-description.md`, for example `2026-11-18-windows-dns-failure.md`.
-3. Fill in every section of the template.
-4. Open a Pull Request. See [CONTRIBUTING.md](../CONTRIBUTING.md) for the full workflow.
+Each level contains its own README with a ticket index, learning objectives, and completion status.
 
-## Before you submit
+## What Belongs Here
+
+- Practical IT Support incidents and troubleshooting exercises.
+- Issues involving Windows, Linux, networking, hardware, identity and access, and infrastructure services.
+- Writeups explaining the diagnostic process and why particular troubleshooting steps were taken.
+- Verified resolutions and supporting technical evidence.
+- Community-contributed tickets based on authorized experience.
+
+Scenarios that have not yet been resolved or are intended for others to investigate belong in the [Scenarios](../scenarios/) directory instead.
+
+## Ticket Writeup Requirements
+
+Use the standardized [Ticket Writeup Template](TEMPLATE.md) when documenting a ticket.
+
+Each writeup should include:
+
+- Incident description and business impact.
+- Environment and initial observations.
+- Symptoms and troubleshooting methodology.
+- Diagnostic commands and supporting evidence.
+- Root cause and resolution.
+- Verification and testing.
+- User communication and closure, where applicable.
+- Lessons learned and escalation considerations.
+
+Clearly identify the environment and nature of the experience:
+
+- **Homelab:** The incident was reproduced and investigated in a personal lab environment.
+- **Production (Authorized):** The work was performed in an authorized production environment and can be shared without disclosing confidential information.
+- **Research (Documented):** The scenario was researched and documented but not independently reproduced.
+
+Do not present researched scenarios as hands-on experience.
+
+## Naming Convention
+
+Use the following naming convention for level-based tickets:
+
+`L1-001-short-description.md`
+
+Examples:
+
+- `L1-001-windows-user-cannot-sign-in.md`
+- `L2-013-domain-authentication-failure.md`
+- `L3-025-internal-dns-failure.md`
+
+Use the established ticket ID and title when documenting each exercise.
+
+## How to Contribute
+
+1. Review the existing ticket library to avoid unnecessary duplication.
+2. Select an appropriate ticket or propose a new scenario.
+3. Copy the [Ticket Writeup Template](TEMPLATE.md).
+4. Complete the writeup and include relevant supporting evidence.
+5. Open a Pull Request following the instructions in [CONTRIBUTING.md](../CONTRIBUTING.md).
+
+Community contributions should reflect genuine technical experience, authorized research, or clearly identified documented scenarios.
+
+## Before You Submit
 
 - Remove passwords, API keys, tokens, and other secrets.
-- Redact or replace real IP addresses, hostnames, usernames, and any personal or employer information.
-- Verify your commands and configurations where possible.
-- Make sure you wrote it or have the right to share it. By submitting, you agree to the terms in [CONTRIBUTING.md](../CONTRIBUTING.md).
+- Redact or replace sensitive IP addresses, hostnames, usernames, and personal or employer information.
+- Verify commands and configurations where possible.
+- Ensure that you have permission to share all submitted material.
+- Accurately represent the environment and nature of the work.
+- Credit external documentation and resources.
 
-## Difficulty levels
+By submitting, you agree to the contribution guidelines in [CONTRIBUTING.md](../CONTRIBUTING.md).
+
+## Difficulty Levels
 
 | Level | Meaning |
 |---|---|
-| Beginner | Common issues with straightforward diagnosis |
-| Intermediate | Multiple possible causes or several systems involved |
-| Advanced | Complex environments, uncommon failures, or deep root cause analysis |
+| Beginner | Common issues with straightforward diagnosis. |
+| Intermediate | Multiple possible causes or several systems involved. |
+| Advanced | Complex environments, uncommon failures, or deeper root cause analysis. |
 
-Questions about a ticket or your write-up? Ask in [Discussions](https://github.com/ryan-sharpnack/the-help-desk-project/discussions).
+Questions about tickets, contributions, or troubleshooting? Join the conversation in [GitHub Discussions](https://github.com/ryan-sharpnack/the-help-desk-project/discussions).
