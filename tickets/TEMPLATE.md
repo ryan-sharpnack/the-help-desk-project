@@ -1,11 +1,14 @@
 # [Ticket Title]
 
-<!-- Replace the title above with a brief description of the issue, for example: "User cannot resolve internal hostnames after VPN connection". Delete these comments as you fill in each section. -->
+<!-- Replace the title above with a brief description of the issue, for example: "User cannot resolve internal hostnames after VPN connection". Delete these comments as you complete each section. -->
 
 | Field | Details |
 |---|---|
+| **Ticket ID** | L1-XXX / L2-XXX / L3-XXX |
+| **Status** | Planned / In Progress / Completed |
 | **Difficulty** | Beginner / Intermediate / Advanced |
 | **Category** | Networking, Windows, Linux, Hardware, Identity and Access, etc. |
+| **Environment Type** | Homelab / Production (Authorized) / Research (Documented) |
 | **Author** | Your GitHub username |
 | **Date Resolved** | YYYY-MM-DD |
 
@@ -18,6 +21,12 @@
 ## Problem Description
 
 <!-- What happened, and what was reported? Write it the way a user might describe it to a help desk. -->
+
+## Business Impact
+
+<!-- Explain how the issue affects the user, business operations, productivity, or service availability. -->
+
+-
 
 ## Symptoms
 
@@ -39,7 +48,7 @@ Paste relevant commands or output here (redact sensitive information)
 
 ## Root Cause
 
-<!-- What actually caused the problem? Explain why it produced the symptoms you saw. -->
+<!-- What actually caused the problem? Explain why it produced the symptoms you observed. -->
 
 ## Resolution
 
@@ -47,11 +56,17 @@ Paste relevant commands or output here (redact sensitive information)
 
 ## Verification
 
-<!-- How did you confirm the fix worked? What did you test, and what did you see afterward? -->
+<!-- How did you confirm the fix worked? What did you test, and what did you observe afterward? -->
 
-## Lessons Learned
+## User Communication and Closure
 
-<!-- What did you learn? What would you check first next time? Is there anything you'd do to prevent this issue? -->
+<!-- Explain how the resolution was communicated to the user, whether the user confirmed the issue was resolved, and how the incident was closed. -->
+
+-
+
+## Lessons Learned and Escalation Considerations
+
+<!-- What did you learn? What would you check first next time? Is there anything you'd do to prevent this issue? Would this issue require escalation, and under what circumstances? -->
 
 -
 
@@ -61,9 +76,10 @@ Paste relevant commands or output here (redact sensitive information)
 
 ---
 
-**Submission checklist**
+**Submission Checklist**
 
-- [ ] I removed passwords, keys, tokens, and other secrets
-- [ ] I redacted or replaced real IP addresses, hostnames, usernames, and personal or employer information
-- [ ] I verified the commands and configurations where possible
-- [ ] I wrote this myself or have the right to share it
+- [ ] I removed passwords, keys, tokens, and other secrets.
+- [ ] I redacted or replaced real IP addresses, hostnames, usernames, and personal or employer information where necessary.
+- [ ] I verified the commands and configurations where possible.
+- [ ] I accurately represented whether this incident was reproduced, researched, or performed in an authorized production environment.
+- [ ] I wrote this myself or have the right to share it.
