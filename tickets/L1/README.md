@@ -42,7 +42,7 @@ Through these exercises, participants will develop the ability to:
 
 ## Completion Standards
 
-Each ticket should be completed using the standardized [Ticket Writeup Template](../TICKET_TEMPLATE.md).
+Each ticket should be completed using the standardized [TEMPLATE.md](TEMPLATE.md).
 
 A completed ticket should document:
 
