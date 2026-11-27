@@ -79,7 +79,7 @@ The user was able to access the Windows desktop after entering the correct passw
 
 ## Supporting Material
 
-No screenshots or additional supporting materials required. Troubleshooting findings and verification results are documented above.
+**Video Walkthrough:** [L1-001 | Windows 11 Sign-In Troubleshooting](https://www.youtube.com/watch?v=4HTnkFJjkW0)
 
 ---
 
