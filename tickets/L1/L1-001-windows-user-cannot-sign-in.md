@@ -17,7 +17,6 @@
 **Operating System:** Windows 11 Enterprise Evaluation, Version 26H2
 **Account Type:** Local standard user account
 **Affected Account:** labuser
-
 -
 
 ## Problem Description
