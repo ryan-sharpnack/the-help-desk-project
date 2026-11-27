@@ -16,8 +16,6 @@
 
 <!-- List the systems, operating systems and versions, software, and configurations involved. Mention whether this was a homelab VM, physical machine, or cloud environment. -->
 
--
-
 ## Problem Description
 
 <!-- What happened, and what was reported? Write it the way a user might describe it to a help desk. -->
@@ -26,13 +24,9 @@
 
 <!-- Explain how the issue affects the user, business operations, productivity, or service availability. -->
 
--
-
 ## Symptoms
 
 <!-- What did you actually observe? Include error messages, behavior, and anything that wasn't working. -->
-
--
 
 ## Troubleshooting
 
@@ -62,13 +56,9 @@ Paste relevant commands or output here (redact sensitive information)
 
 <!-- Explain how the resolution was communicated to the user, whether the user confirmed the issue was resolved, and how the incident was closed. -->
 
--
-
 ## Lessons Learned and Escalation Considerations
 
 <!-- What did you learn? What would you check first next time? Is there anything you'd do to prevent this issue? Would this issue require escalation, and under what circumstances? -->
-
--
 
 ## Supporting Material
 
