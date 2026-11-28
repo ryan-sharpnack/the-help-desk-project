@@ -26,7 +26,7 @@ Through these exercises, participants will develop the ability to:
 | ID | Ticket | Status |
 |---|---|---|
 | L1-001 | Windows User Cannot Sign In | Completed |
-| L1-002 | Windows User Profile Fails to Load | Planned |
+| L1-002 | Windows User Profile Fails to Load | Completed |
 | L1-003 | Workstation Runs Unusually Slowly | Planned |
 | L1-004 | Application Installation Fails | Planned |
 | L1-005 | Windows Update Fails | Planned |
