@@ -56,18 +56,20 @@ Changes made while using a temporary profile may not persist after signing out. 
 
 2. **Step:** Inspect the existing user profile
    **Why:** Establish the profile's baseline status before introducing the controlled failure.
-   **Action** Executed:
+   **Action**
+
+   Executed:
 
    Get-CimInstance Win32_UserProfile |
-Where-Object { $_.LocalPath -eq "C:\Users\profiletest" } |
-Select-Object SID, LocalPath, Loaded, Special
+   Where-Object { $_.LocalPath -eq "C:\Users\profiletest" } |
+   Select-Object SID, LocalPath, Loaded, Special
 
    **Result:**
    - The expected profile directory was identified.
    - Loaded was False because the affected account was signed out.
    - Special was False.
   
-3. **Step:** Inspect the profile registry configuration
+4. **Step:** Inspect the profile registry configuration
    **Why:** Verify that Windows has the expected registry mapping for the affected user profile.
 
    **Registry Location:**
@@ -83,7 +85,7 @@ Select-Object SID, LocalPath, Loaded, Special
   
    The original profile directory and NTUSER.DAT file were present.
 
-4. **Step:** Create an additional profile hive backup
+5. **Step:** Create an additional profile hive backup
    **Why:** Preserve an additional copy of the original registry hive before introducing the controlled failure.
    **Action:**
 
@@ -97,7 +99,7 @@ Select-Object SID, LocalPath, Loaded, Special
 
    **Result:** Returned True. The additional backup file was successfully created.
 
-5. **Step:** Introduce the controlled profile configuration fault
+6. **Step:** Introduce the controlled profile configuration fault
    **Why:** Reproduce a profile-loading failure in a disposable account without affecting the other local accounts.
    **Action:** In Registry Editor, modified the ProfileImagePath value under the affected user's SID key.
 
@@ -111,7 +113,7 @@ Select-Object SID, LocalPath, Loaded, Special
 
    **Result:** The incorrect registry path was confirmed. No profile files were deleted or modified during this step.
 
-6. **Step:** Reproduce the sign-in failure
+7. **Step:** Reproduce the sign-in failure
    **Why:** Observe Windows behavior when the affected account's profile path points to a nonexistent directory.
    **Action:** Signed out of labadmin and attempted to sign in as profiletest.
    **Result:**
@@ -126,7 +128,7 @@ Select-Object SID, LocalPath, Loaded, Special
 
    The behavior was consistent with Windows loading a temporary user profile rather than the original profile.
 
-7. **Step:** Inspect the registry after the failed sign-in
+8. **Step:** Inspect the registry after the failed sign-in
    **Why:** Determine how Windows represented the affected profile registration following the failed sign-in attempt.
    **Action:** Signed out of the temporary session, returned to labadmin, and inspected the ProfileList registry keys.
    **Result:** The previously observed SID key ending in 1003 was no longer listed under that exact name. A key ending in 1003.bak was present.
@@ -138,7 +140,7 @@ Select-Object SID, LocalPath, Loaded, Special
    This registry-key change was observed during the controlled failure and was used as part of the recovery process.
 
 
-8. **Step:** Restore the original profile registry entry
+9. **Step:** Restore the original profile registry entry
    **Why:** Restore the original SID registration and correct the profile directory mapping.
    **Action:**
 
@@ -154,7 +156,7 @@ Select-Object SID, LocalPath, Loaded, Special
   
    **Result:** The original SID key name and profile path were restored.
 
-9. **Step:** Verify successful profile recovery
+10. **Step:** Verify successful profile recovery
    **Why:** Confirm that Windows could once again load the original user profile.
    **Action:** Signed out of labadmin and signed in as profiletest.
 
@@ -170,7 +172,7 @@ Select-Object SID, LocalPath, Loaded, Special
 
    The normal desktop loaded, and the previous profile sign-in warning no longer appeared.
 
-10. **Step:** Verify the active profile status
+11. **Step:** Verify the active profile status
     **Why:** Confirm that Windows had loaded the expected profile rather than another temporary profile.
     **Action:**
 
@@ -188,7 +190,7 @@ Select-Object SID, LocalPath, Loaded, Special
    
     The original profile was successfully loaded.
 
-11. **Step:** Verify profile backup and cleanup status
+12. **Step:** Verify profile backup and cleanup status
     **Why:** Confirm that the original profile hive remained intact and document the remaining lab artifact.
     **Action:**
 
@@ -288,6 +290,7 @@ The additional NTUSER.DAT.L1-002-backup file remains in the lab profile director
 **Affected Account:** profiletest
 **Registry Location:** HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
 **Original Profile Directory:** C:\Users\profiletest
+**YouTube Walkthrough:** [L1-002 | Windows User Profile Troubleshooting & Recovery](https://www.youtube.com/watch?v=u7ACs2-hTgY)
 
 ---
 
